@@ -29,7 +29,7 @@ const getGithubUser = (username) => `
 
 function runQuery(query) {
   const GRAPHQL_ENTRY_POINT = "https://api.github.com/graphql";
-  const TOKEN = "9ec28d51c45d7022df1ec81bd92e6a7a47eebc4f";
+  const TOKEN = "38e4a9e938caab9a39c68e968a7e130e03f43fb9";
   //const TOKEN = "13df0c3f3e62d337da44c9c878d90329963a0a0e";
 
   return fetch(GRAPHQL_ENTRY_POINT, {
